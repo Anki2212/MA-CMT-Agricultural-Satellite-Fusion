@@ -1,0 +1,46 @@
+# Raw dataset archives and GeoJSON
+data/raw/
+
+# Processed dataset caches & normalization arrays
+data/processed/*.pkl
+data/processed/*.npz
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+env/
+venv/
+.venv/
+ENV/
+
+# Testing & caches
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Node.js & Frontend build artifacts
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/.tmp/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local environment variables
+.env
+.env.local
+.env.*.local
+
+# OS system files
+.DS_Store
+Thumbs.db
+desktop.ini

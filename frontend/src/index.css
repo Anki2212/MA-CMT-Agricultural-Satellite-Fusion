@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+:root {
+  --clr-bg: #f8fafc;
+  --clr-surface: #ffffff;
+  --clr-border: #e2e8f0;
+  --clr-primary: #166534;
+  --clr-primary-light: #dcfce7;
+  --clr-accent: #15803d;
+  --clr-text: #0f172a;
+  --clr-muted: #64748b;
+}
+
+body {
+  background-color: var(--clr-bg);
+  color: var(--clr-text);
+  font-family: 'Inter', system-ui, sans-serif;
+}
